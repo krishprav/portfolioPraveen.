@@ -4,6 +4,7 @@ import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear(); 
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
@@ -34,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright 2024 Krishna Praveen Korimilli
+          Copyright {currentYear} Krishna Praveen Korimilli
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
