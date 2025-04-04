@@ -221,34 +221,6 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote: ".",
-    name: "..",
-    title: "...",
-  },
-  {
-    quote: ".",
-    name: "..",
-    title: "...",
-  },
-  {
-    quote: ".",
-    name: "..",
-    title: "...",
-  },
-  {
-    quote: ".",
-    name: "..",
-    title: "...",
-  },
-  {
-    quote: ".",
-    name: "..",
-    title: "...",
-  },
-];
-
 
 export const workExperience = [
   {
